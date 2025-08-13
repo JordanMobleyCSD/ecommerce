@@ -1,0 +1,122 @@
+[
+    {
+        "id": "beige-kufi",
+        "name": "Beige Kufi",
+        "price": 9.99,
+        "currency": "USD",
+        "description": "Beige Kufi, Pair with your favorites",
+        "image": "Images/Beige Kufi.webp",
+        "alt": "Kufi",
+        "tags": ["kufi", "beige"]
+    },
+    {
+        "id": "brown-kufi",
+        "name": "Brown Kufi",
+        "price": 9.99,
+        "currency": "USD",
+        "description": "Brown Kufi, Pair with your favorites",
+        "image": "Images/Brown Kufi.webp",
+        "alt": "Kufi",
+        "tags": ["kufi", "brown"]
+    },
+    {
+        "id": "white-kufi",
+        "name": "White Kufi",
+        "price": 9.99,
+        "currency": "USD",
+        "description": "White Kufi, Pair with your favorites",
+        "image": "Images/White Kufi.webp",
+        "alt": "Kufi",
+        "tags": ["kufi", "white"]
+    },
+    {
+        "id": "navy-blue-kufi",
+        "name": "Navy Blue Kufi",
+        "price": 9.99,
+        "currency": "USD",
+        "description": "Navy Blue Kufi, Pair with your favorites",
+        "image": "Images/Navy Blue Kufi.webp",
+        "alt": "Kufi",
+        "tags": ["kufi", "navy blue"]
+    },
+    {
+        "id": "black-kurtas",
+        "name": "Black Kurtas",
+        "price": 19.99,
+        "currency": "USD",
+        "description": "Black Kurtas, Pair with your favorites",
+        "image": "Images/Black Kurtas.webp",
+        "alt": "Kurtas",
+        "tags": ["kurtas", "black"]
+    },
+    {
+        "id": "peach-kurtas",
+        "name": "Peach Kurtas",
+        "price": 19.99,
+        "currency": "USD",
+        "description": "Peach Kurtas, Pair with your favorites",
+        "image": "Images/Peach Kurtas.webp",
+        "alt": "Kurtas",
+        "tags": ["kurtas", "peach"]
+    },
+    {
+        "id": "sage-green-kurtas",
+        "name": "Sage Green Kurtas",
+        "price": 19.99,
+        "currency": "USD",
+        "description": "Sage Green Kurtas, Pair with your favorites",
+        "image": "Images/Sage Green Kurtas.webp",
+        "alt": "Kurtas",
+        "tags": ["kurtas", "sage green"]
+    },
+    {
+        "id": "white-kurtas",
+        "name": "White Kurtas",
+        "price": 19.99,
+        "currency": "USD",
+        "description": "White Kurtas, Pair with your favorites",
+        "image": "Images/Kurtas Thumbnail.avif",
+        "alt": "Kurtas",
+        "tags": ["kurtas", "white"]
+    },
+    {
+        "id": "white-thobe",
+        "name": "White Thobe",
+        "price": 39.99,
+        "currency": "USD",
+        "description": "White Thobe, Pair with your favorites",
+        "image": "Images/White Thobe.webp",
+        "alt": "Thobe",
+        "tags": ["thobes", "white"]
+    },
+    {
+        "id": "sage-green-thobe",
+        "name": "Sage Green Thobe",
+        "price": 39.99,
+        "currency": "USD",
+        "description": "Sage Green Thobe, Pair with your favorites",
+        "image": "Images/Sage Green Thobe.webp",
+        "alt": "Thobe",
+        "tags": ["thobes", "sage green"]
+    },
+    {
+        "id": "red-thobe",
+        "name": "Red Thobe",
+        "price": 39.99,
+        "currency": "USD",
+        "description": "Red Thobe, Pair with your favorites",
+        "image": "Images/Red Thobe.webp",
+        "alt": "Thobe",
+        "tags": ["thobes", "red"]
+    },
+    {
+        "id": "navy-blue-thobe",
+        "name": "Navy Blue Thobe",
+        "price": 39.99,
+        "currency": "USD",
+        "description": "Navy Blue Thobe, Pair with your favorites",
+        "image": "Images/Navy Blue Thobe.webp",
+        "alt": "Thobe",
+        "tags": ["thobes", "navy blue"]
+    }
+]

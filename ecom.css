@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(255, 200, 141);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+.hero-image {
+    height: 50vh;
+    width: 100%;
+}
+
+.product-highlights {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slides-container {
+  max-width: 80vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+
+.slides-container2 {
+  max-width: 80vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.slides-container3 {
+  max-width: 80vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.slides {
+    height: auto;
+    width: 100%;
+}
+
+
+
+.intro-head {
+    padding-top: 5vh;
+    text-align: center;
+}
+
+
+.slide-img {
+    height: 50vh;
+    width: 100%;
+}
+
+
+.footer {
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(255, 200, 141);
+  text-align: right;
+  width: 100%;
+  height: auto;
+}
+
+.footer-icons a {
+  height: auto;
+  width: 10vw;;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 4vh;
+  color: rgb(255, 200, 141);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 1px;
+}
+
+
+
+
+
+/* Contact page CSS */
+
+.caption {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.contact-form {
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px 5px 5px;
+    background-color: #333;
+    margin-left: 25vw;
+    color: white;
+    margin: 13vh 25vw;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 5px;
+}
+
+#contact {
+    width: 20vw;
+    margin-left: 5px;
+}
+
+#first-name {
+    width: 20vw;
+}
+
+#last-name {
+    width: 20vw;
+}
+
+label {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+#submit {
+    width: 10vw;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+
+#comment {
+    width: 95%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* Products Page CSS */
+
+img {
+    height: 15vh;
+    width: 10vw;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+}

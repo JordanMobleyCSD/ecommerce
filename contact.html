@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ecom.css">
+    <link rel="stylesheetSASS" href="ecom.scss">
+    <link rel="products-page" href="products.html">
+    <link rel="contact-page" href="contact.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+<body class="contact-body">
+
+    <div class="caption">
+        <h1>TELL US WHAT YOU THINK!</h1>
+    </div>
+
+    
+    <div class="contact-form">
+        <form class="form">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Your first name">
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Your last name">
+
+            <label for="contact-preference">Contact Method</label>
+            <select id="contact" name="contact">
+                <option value="phone-number">Phone Number</option>
+                <option value="email">Email</option>
+                <option value="phone-email">Phone & Email</option>
+            </select>
+
+            <label for="phone-number">Phone Number</label>
+            <input type="text" id="phone-number" name="phone-number" placeholder="(xxx)-xxx-xxxx">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="you@email.com">
+
+            <label for="comment">Comment Description</label>
+            <textarea id="comment" name="comment" placeholder="Comment Description..."></textarea>
+            
+            <label for="contact-date">Contact Date:</label>
+            <input type="date" id="contact-date" name="contactdate">
+
+            <input id="submit" type="submit" value="submit">
+        </form>
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-orders">
+            <h2>Ordering Info</h2>
+            <ul>
+                <li><a>Payment Methods</a></li>
+                <li><a>Shipping & Handling</a></li>
+                <li><a>Orders & Returns</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h2>Contact Us</h2>
+            <ul>
+                <li><a>Contact Form</a></li>
+                <li><a>Phone: (xxx)-xxx-xxxx</a></li>
+                <li><a>Email: YeahDont@gmail.com</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-icons">
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-google"></a>
+
+        </div>
+
+    </div>
+
+    <script src="ecom.js"></script>
+</body>
+</html>
