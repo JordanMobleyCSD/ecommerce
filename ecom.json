@@ -41,7 +41,7 @@
     },
     {
         "id": "black-kurtas",
-        "name": "Black Kurtas",
+        "name": "Black Kurta",
         "price": 19.99,
         "currency": "USD",
         "description": "Black Kurtas, Pair with your favorites",
@@ -51,7 +51,7 @@
     },
     {
         "id": "peach-kurtas",
-        "name": "Peach Kurtas",
+        "name": "Peach Kurta",
         "price": 19.99,
         "currency": "USD",
         "description": "Peach Kurtas, Pair with your favorites",
@@ -61,7 +61,7 @@
     },
     {
         "id": "sage-green-kurtas",
-        "name": "Sage Green Kurtas",
+        "name": "Sage Green Kurta",
         "price": 19.99,
         "currency": "USD",
         "description": "Sage Green Kurtas, Pair with your favorites",
@@ -71,7 +71,7 @@
     },
     {
         "id": "white-kurtas",
-        "name": "White Kurtas",
+        "name": "White Kurta",
         "price": 19.99,
         "currency": "USD",
         "description": "White Kurtas, Pair with your favorites",
