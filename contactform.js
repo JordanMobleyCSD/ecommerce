@@ -22,11 +22,11 @@ const $ = contactMethod.value;
 phone.required = ($ === 'phone-number' || $ === 'phone-email');
 email.required = ($ === 'email' || $ === 'phone-email');
 
-
 // Clear custom messages when rules change
 phone.setCustomValidity('');
 email.setCustomValidity('');
 }
+
 updateContactRequirements();
 contactMethod.addEventListener('change', updateContactRequirements);
 

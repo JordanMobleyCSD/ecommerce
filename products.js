@@ -18,28 +18,30 @@ fetch('ecom.json')
 
         
 
-const cardContainer = document.getElementById("card-container")
 
-products.forEach(product => {
-  const card = document.createElement("div"); // Create the card container
-  card.classList.add("product-card"); 
 
-  const image = document.createElement("img"); // Create the image element
-  image.src = product.image;
-  image.alt = product.name;
-  card.appendChild(image);
+// const cardContainer = document.getElementById("card-container")
 
-  const name = document.createElement("h2"); // Create the title element
-  name.textContent = product.name;
-  card.appendChild(name);
+// products.forEach(product => {
+//   const card = document.createElement("div"); // Create the card container
+//   card.classList.add("product-card"); 
 
-  const price = document.createElement("p"); // Create the price element
-  price.textContent = `$${product.price.toFixed(2)}`; 
-  card.appendChild(price);
+//   const image = document.createElement("img"); // Create the image element
+//   image.src = product.image;
+//   image.alt = product.name;
+//   card.appendChild(image);
 
-  const description = document.createElement("p"); // Create the description element
-  description.textContent = product.description;
-  card.appendChild(description);
+//   const name = document.createElement("h3"); // Create the title element
+//   name.textContent = product.name;
+//   card.appendChild(name);
 
-  cardContainer.appendChild(card); // Add the complete card to the container
-});
+//   const price = document.createElement("p"); // Create the price element
+//   price.textContent = `$${product.price.toFixed(2)}`; 
+//   card.appendChild(price);
+
+//   const description = document.createElement("p"); // Create the description element
+//   description.textContent = product.description;
+//   card.appendChild(description);
+
+//   cardContainer.appendChild(card); // Add the complete card to the container
+// });
